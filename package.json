@@ -1,0 +1,17 @@
+{
+    "name": "sass_pro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scssmin": "node-sass --output-style compressed asset/style.scss dist/cy.min.css",
+        "scss": "node-sass -w asset/style.scss dist/cy.css"
+    },
+    "author": "cyclone77@126.com",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.5.3"
+    },
+    "dependencies": {}
+}
