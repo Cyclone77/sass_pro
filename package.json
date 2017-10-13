@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "scssmin": "node-sass --output-style compressed asset/style.scss dist/cy.min.css",
-        "scss": "node-sass -w asset/style.scss dist/cy.css"
+        "scss": "node-sass -w --source-map=dist asset/style.scss dist/cy.css"
     },
     "author": "cyclone77@126.com",
     "license": "ISC",
